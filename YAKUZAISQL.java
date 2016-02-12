@@ -26,7 +26,7 @@ try{
 	Class.forName("com.mysql.jdbc.Driver");
 	//データベースへ接続する。
 	//(URL,ユーザ名,パスワード)
-	con = DriverManager.getConnection("jdbc:mysql://localhost/okusuri","root","kyoto947613");
+	con = DriverManager.getConnection("jdbc:mysql://localhost/okusuri","****","*******");
     // データを検索するSQL文を作成
     String sql = "select SY.A,SY.B,SY.C,SY.D,SY.E,SY.F,SY.G,SY.H,SY.I,SY.J,YA.C,YA.D from SY,YA WHERE SY.G=YA.B";
     // ステートメントオブジェクトを生成
